@@ -1,0 +1,9 @@
+**/.idea
+**/.DS_STORE
+server/target
+server/*.iml
+**/node_modules
+**/lib
+**/build
+**/.settings
+Dockerfile

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./node_modules",
+    "paths": {
+      "abceditor/*": ["./abceditor/lib/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
