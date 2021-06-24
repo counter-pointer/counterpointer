@@ -11,7 +11,7 @@ COPY . /app
 WORKDIR /app
 
 # build backend
-RUN cd server && mvn package
+RUN cd server && mvn package -Dmaven.test.skip=true
 # build typescript package
 RUN cd frontend/package && npm install && npm run build
 # build frontend client
