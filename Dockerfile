@@ -17,5 +17,4 @@ RUN cd frontend/package && npm install && npm run build
 # build frontend client
 RUN cd frontend/client && npm install && npm run build
 # run server
-WORKDIR "/app/server"
-CMD [ "./run --gui" ]
+CMD [ "./server/run" ]
