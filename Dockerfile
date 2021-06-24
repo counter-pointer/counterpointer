@@ -13,7 +13,7 @@ WORKDIR /app
 # build backend
 RUN cd server && mvn package
 # build typescript package
-RUN cd frontend/package && npm install && npm run build && npm run test
+RUN cd frontend/package && npm install && npm run build
 # build frontend client
 RUN cd frontend/client && npm install && npm run build
 # run server
