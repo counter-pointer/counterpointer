@@ -1,6 +1,6 @@
 [![logo](frontend/client/logo/logo_text_color.png)](https://www.counterpointer.app/)
 
-[![CI Status](https://github.com/counter-pointer/counterpointer/actions/workflows/ci.yml/badge.svg)]
+![CI Status](https://github.com/counter-pointer/counterpointer/actions/workflows/ci.yml/badge.svg)
 
 ---
 
